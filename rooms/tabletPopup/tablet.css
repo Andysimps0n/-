@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family:'Noto Sans KR';
+  overflow: hidden;
+}
+
+.menu {
+  background: #FFD362;
+  height: 9vh;
+}
+.menu-elements {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+ol li {
+  display: inline-block;
+  line-height: 100px;
+}
+#arrow, #user {
+  width: 45px;
+  height: 45px;
+}
+#user {
+  right: 10px;
+  position: absolute;
+  top: 10px;
+}
+#arrow {
+  padding-left: 10px;
+  transition: all 0.2s;
+}
+#arrow:hover {transform: translateX(-3px);}
+#arrow {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.centered-content {
+  width: 40%;
+  height: calc(91vh);
+  margin: 0 auto;
+}
+
+.week {
+  display: flex;
+  width: 900px;
+  position: absolute;
+  top:0;
+  align-items: flex-end; /* Align blue boxes to the bottom of the red box */
+
+  left: 140px;
+  height: 9vh;
+}
+
+.days {
+  display: inline-flex;
+  align-items:center;
+  justify-content: center;
+  border-radius: 10px 10px 0 0;
+  height: 80%;
+  border: rgb(158, 158, 158) solid 1.2px;
+  border-bottom: none;
+  width: 120px;
+  background-color: #fee7ad;
+  margin-left: 10px;
+
+  transition: all 0.2;
+}
+
+.days:hover {
+  background-color: #fedb83;
+}

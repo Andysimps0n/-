@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+
+}
+
+#arrow{
+    margin-left:5px;
+}
+
+.menu {
+  background: #FFD362;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+}
+
+#user, #arrow {
+  height: 45px;
+  width: 45px;
+}
+
+#user {
+  /* 코드를 여기에 작성하세요. */
+  position: absolute;
+  right: 15px;
+
+}
+
+.week_bar {
+  height:10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  width: 70px;
+  background-color: green;
+  border: black 1px solid;
+}
+
+.blocks {
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: rgb(199, 199, 199);
+  text-align: center;
+
+  width: 90%;
+  height: 60px;
+  border-radius: 10px;
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
